@@ -2,6 +2,7 @@
 
 空的模版项目
 
-搜索项目中所有 `Template` 修改为执行的项目名
+- `cp Template <NewProject>`
+-  sed -i '' 's/Template/NewProject/g' `grep Template --include=\*.{md,html,xml} -rl .`
 
 
